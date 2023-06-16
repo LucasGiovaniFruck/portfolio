@@ -114,7 +114,7 @@ html, body
 
 section#inicio
 {
-    background: linear-gradient(#1c3453, #748caa, #bdaddaff, #fff);
+    background: linear-gradient(#1c3453, #748caa, #bdaddaff, #a296ca);
     background-repeat: no-repeat;
     /* para ocupar todo o espaço da tela */
     background-size: cover;

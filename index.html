@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../static/style.css">
-    <link rel="icon" type="image/png" href="../static/img/">
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="icon" type="image/png" href="./static/img/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Lucas Giovani | Portfólio</title>
 </head>
@@ -17,7 +17,7 @@
 
     <aside id="header"> <!--Menu lateral-->
         <section class="profile"> <!--Seção da foto de perfil, nome, e social-links-->
-            <img src="../static/img/Anonimo.png" alt="Foto Lucas"> <!--Foto pessoal-->
+            <img src="./static/img/Anonimo.png" alt="Foto Lucas"> <!--Foto pessoal-->
             <h1>Lucas Giovani</h1>
             <div class="social-links mt-4 text-center d-flex flex-row justify-content-center"> <!--linha aonde está o github, linkedin e o instagram-->
                 <a target="_blank" href="https://github.com/LucasGiovaniFruck"> <!--github-->
@@ -85,7 +85,7 @@
 
                     <div class="row mt-5">
                         <div class="col-md-4">
-                            <img class="img-fluid shadow" src="../static/img/foto2.png" alt="Foto Lucas">
+                            <img class="img-fluid shadow" src="./static/img/foto2.png" alt="Foto Lucas">
                         </div>
                         <div class="col-md-8">
                             <h3> Desenvolvedor de Sistemas</h3>
@@ -128,6 +128,61 @@
                 </div>
             </div>
         </section>
+
+        <section class="mt-5 section-bg" id="portfolio">
+            <div class="container pb-5 pt-5 width-80" data-anime="left">
+              <h2 class="pb-4">Portfólio</h2>
+      
+              <!-- Carrosel dos projetos -->
+              <div id="carouselPortfolio" class="carousel carousel-dark slide">
+      
+                <!-- Botões de páginas -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                  </div>
+      
+                <!-- Páginas do carrosel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+      
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                      <div class="col">
+                        <div class="card">
+                          <img src="./static/img/refigurefoto.png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Site e-commerce</h5>
+                            <p class="card-text">Projeto criado com o objetivo de aprimorar os conhecimentos de HTML, CSS JavaScript, PHP e SQL.</p>
+                            <div class="d-flex justify-content-center">
+                              <a target="_blank" href="https://pokedex-foyth.vercel.app/"><button
+                                  class="btn btn-outline-primary me-3"><i class="bi bi-link-45deg"></i></button></a>
+                              <a target="_blank" href="https://github.com/CaueFoyth/pokedex"><button
+                                  class="btn btn-outline-dark"><i class="bi bi-github"></i></button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+      
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+      
+            </div>
+          </section>
 
         <section class="mt-5 section-bg" id="habilidades">
 
@@ -239,6 +294,8 @@
             </div>
         </section>
 
+
+
     </main>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -246,3 +303,18 @@
 </body>
 
 </html>
+
+
+<!--<div class="col">
+                              <div class="card">
+                                <img src="./static/img/refigurefoto.png" class="card-img-top" alt="Site e-commerce">
+                                <div class="card-body">
+                                  <h5 class="card-title">ReFigure e-commerce</h5>
+                                  <p class="card-text">Projeto criado com o objetivo de aprimorar os conhecimentos de HTML, CSS JavaScript, PHP e SQL.</p>
+                                  <div class="d-flex justify-content-center">
+                                    <a href="https://www.google.com/" target="_blank" class="btn-outline-dark me-3"><i class="bi bi-github"></i></a>
+                                    <a href="https://www.google.com/" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
