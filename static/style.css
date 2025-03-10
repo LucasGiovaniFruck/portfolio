@@ -205,6 +205,7 @@ i.menu-mobile
     transform: translate3d(0 ,0 ,0);
   }
 
+
 @media (max-width: 1024px)
 {
     #header
@@ -229,6 +230,10 @@ i.menu-mobile
     #main
     {
         margin-left: 0;
+    }
+    .mapa{
+        scale: 80%;
+        margin-left: -25%;
     }
 }
 
